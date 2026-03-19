@@ -416,6 +416,30 @@
     [
       "0edcf3aa-0722-4786-beaa-59b728b7a9fc",
       "llums"
+    ],
+    [
+      "b442c7ef-ea3d-476f-b4ca-53d1479b8362",
+      "alimentacio"
+    ],
+    [
+      "65403977-6a27-47ce-ace7-4876548c1d8f",
+      "microcontrolador"
+    ],
+    [
+      "cd13a3ea-30b8-4fef-9eee-500876d417cb",
+      "transciever"
+    ],
+    [
+      "3bb50679-83a8-4aab-96bc-286844dfa6b9",
+      "sensor_llum"
+    ],
+    [
+      "8274ff46-6061-49e5-9b91-54441fd76d04",
+      "Botonera"
+    ],
+    [
+      "c1b8d102-e53b-43a9-9e1c-a454801cd13d",
+      "Debug"
     ]
   ],
   "text_variables": {}

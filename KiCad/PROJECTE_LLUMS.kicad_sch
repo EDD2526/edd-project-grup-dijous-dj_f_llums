@@ -5,9 +5,93 @@
 	(uuid "b4874c87-978f-427f-bc45-3635f8629977")
 	(paper "A4")
 	(lib_symbols)
+	(text "DEBUG\n"
+		(exclude_from_sim no)
+		(at 168.656 88.392 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "129b40ac-72e7-45b1-9646-42d141d8043a")
+	)
+	(text "ALIMENTACiÓ"
+		(exclude_from_sim no)
+		(at 48.006 38.354 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "6b5dd199-c4c5-4588-88fb-0fe0c13eecf2")
+	)
+	(text "MICRO"
+		(exclude_from_sim no)
+		(at 106.68 89.154 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "71967a66-f781-4219-b948-8be97c130bce")
+	)
+	(text "LLUMS\n"
+		(exclude_from_sim no)
+		(at 231.14 89.408 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "a7fbc1e9-34cd-42ae-bf41-a7dbd96e3a2f")
+	)
+	(text "TRANSCIEVER\n"
+		(exclude_from_sim no)
+		(at 169.672 40.132 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "b472ebc7-b39f-4a17-b30e-af2836652876")
+	)
+	(text "BOTONERA\n"
+		(exclude_from_sim no)
+		(at 107.696 39.37 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "d80ead94-7475-4086-8281-189174e07b55")
+	)
+	(text "SENSOR LLUMS\n"
+		(exclude_from_sim no)
+		(at 229.87 39.624 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "f103bd81-957e-437f-ab19-466f67eca9c8")
+	)
 	(sheet
-		(at 182.88 104.14)
-		(size 54.61 38.1)
+		(at 204.47 69.85)
+		(size 54.61 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +106,7 @@
 		)
 		(uuid "0edcf3aa-0722-4786-beaa-59b728b7a9fc")
 		(property "Sheetname" "llums"
-			(at 182.88 103.4284 0)
+			(at 204.47 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,8 +114,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 182.88 142.8246 0)
+		(property "Sheetfile" "llums.kicad_sch"
+			(at 204.47 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,6 +127,258 @@
 			(project "PROJECTE_LLUMS"
 				(path "/b4874c87-978f-427f-bc45-3635f8629977"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 20.32)
+		(size 53.34 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3bb50679-83a8-4aab-96bc-286844dfa6b9")
+		(property "Sheetname" "sensor_llum"
+			(at 204.47 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor_llum.kicad_sch"
+			(at 204.47 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_LLUMS"
+				(path "/b4874c87-978f-427f-bc45-3635f8629977"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 69.85)
+		(size 54.61 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "65403977-6a27-47ce-ace7-4876548c1d8f")
+		(property "Sheetname" "microcontrolador"
+			(at 81.28 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontrolador.kicad_sch"
+			(at 81.28 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_LLUMS"
+				(path "/b4874c87-978f-427f-bc45-3635f8629977"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 20.32)
+		(size 53.34 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8274ff46-6061-49e5-9b91-54441fd76d04")
+		(property "Sheetname" "Botonera"
+			(at 81.28 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Botonera.kicad_sch"
+			(at 81.28 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_LLUMS"
+				(path "/b4874c87-978f-427f-bc45-3635f8629977"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 20.32)
+		(size 48.26 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b442c7ef-ea3d-476f-b4ca-53d1479b8362")
+		(property "Sheetname" "alimentacio"
+			(at 24.13 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "alimentacio.kicad_sch"
+			(at 24.13 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_LLUMS"
+				(path "/b4874c87-978f-427f-bc45-3635f8629977"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 69.85)
+		(size 55.88 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1b8d102-e53b-43a9-9e1c-a454801cd13d")
+		(property "Sheetname" "Debug"
+			(at 142.24 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Debug.kicad_sch"
+			(at 142.24 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_LLUMS"
+				(path "/b4874c87-978f-427f-bc45-3635f8629977"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 20.32)
+		(size 52.07 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd13a3ea-30b8-4fef-9eee-500876d417cb")
+		(property "Sheetname" "transciever"
+			(at 143.51 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transciever.kicad_sch"
+			(at 143.51 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PROJECTE_LLUMS"
+				(path "/b4874c87-978f-427f-bc45-3635f8629977"
+					(page "5")
 				)
 			)
 		)
