@@ -1883,6 +1883,12 @@
 		(color 0 0 0 0)
 		(uuid "a1824f6b-feda-4a6d-962a-2dfaa7ee56dd")
 	)
+	(junction
+		(at 194.31 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbed5504-0c55-486d-bbfb-2275ab5954fc")
+	)
 	(no_connect
 		(at 97.79 90.17)
 		(uuid "00e14e71-bf02-4695-a675-d0e3787b341e")
@@ -3244,6 +3250,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 194.31 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "376f5499-adcf-445e-99a7-b266d5a143ef")
+		(property "Reference" "#FLG05"
+			(at 194.31 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 194.818 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 194.31 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a20cce53-0c95-4708-9111-f42cf5a59bf0")
+		)
+		(instances
+			(project ""
+				(path "/b4874c87-978f-427f-bc45-3635f8629977/65403977-6a27-47ce-ace7-4876548c1d8f"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PROJECTE_LLUMS:PIC32MX254F128B")
 		(at -55.88 92.71 0)
 		(unit 1)
@@ -3907,7 +3978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 80.518 64.77 90)
 			(effects
 				(font
@@ -3977,7 +4048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 227.0252 72.39 0)
 			(effects
 				(font
@@ -4638,7 +4709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 79.7052 82.55 0)
 			(effects
 				(font
@@ -4844,7 +4915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 237.1852 69.85 0)
 			(effects
 				(font
@@ -5044,7 +5115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 216.8652 74.93 0)
 			(effects
 				(font

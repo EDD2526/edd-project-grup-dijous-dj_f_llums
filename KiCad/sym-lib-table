@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BH1750FVI-TR")(type "KiCad")(uri "C:/Users/marti/Desktop/UB_EET/4SEMESTRE/eines_disseny/projecte/edd-project-grup-dijous-dj_f_llums/symbols/BH1750FVI-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "PIC24HJ128GP502-I_SO")(type "KiCad")(uri "C:/Users/marti/Desktop/UB_EET/4SEMESTRE/eines_disseny/projecte/edd-project-grup-dijous-dj_f_llums/symbols/PIC24HJ128GP502-I_SO.kicad_sym")(options "")(descr ""))
+)

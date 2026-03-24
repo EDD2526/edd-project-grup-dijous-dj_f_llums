@@ -1166,6 +1166,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "els pins RB s'haurà de posar una etiqueta per cada pin del microcontrolador en format sortida\n"
 		(exclude_from_sim no)
@@ -1200,6 +1301,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8168ca11-dfd1-48e8-a312-ae36202fcc0e")
+	)
+	(junction
+		(at 170.18 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f8acef0-e6b8-4fee-a525-f199fd66a8af")
 	)
 	(junction
 		(at 124.46 120.65)
@@ -1549,73 +1656,7 @@
 		)
 		(uuid "fa599876-6262-49a4-8362-2941519ccd36")
 	)
-	(global_label "RB3"
-		(shape input)
-		(at 116.84 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0bacd1eb-df7a-4106-9d5e-83f2060c108e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1053 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RB1"
-		(shape input)
-		(at 116.84 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2186f09d-b3f7-44f8-8a5e-1306523bc394")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1053 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RB2"
-		(shape input)
-		(at 116.84 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5769cde0-f10e-417f-9f6a-b121c0a6f605")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1053 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RB5"
+	(global_label "INTERM. DRT"
 		(shape input)
 		(at 116.84 115.57 180)
 		(fields_autoplaced yes)
@@ -1625,9 +1666,9 @@
 			)
 			(justify right)
 		)
-		(uuid "bff99100-79d1-4285-b313-114ab4366f4d")
+		(uuid "42b9d088-55a8-49fb-ba9d-30266a39e7f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1053 115.57 0)
+			(at 102.0015 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1678,7 @@
 			)
 		)
 	)
-	(global_label "RB4"
+	(global_label "INTERM. ESQ"
 		(shape input)
 		(at 116.84 101.6 180)
 		(fields_autoplaced yes)
@@ -1647,9 +1688,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f440885c-e04e-4cbe-ad80-5b39a541eab2")
+		(uuid "441ce144-e081-49b6-b395-c311a6fc7d84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1053 101.6 0)
+			(at 101.8201 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1700,7 @@
 			)
 		)
 	)
-	(global_label "RB0"
+	(global_label "NETEJA-FARS"
 		(shape input)
 		(at 116.84 128.27 180)
 		(fields_autoplaced yes)
@@ -1669,9 +1710,75 @@
 			)
 			(justify right)
 		)
-		(uuid "ff2efb17-15f3-4f1c-9ef6-fc62d65f0d60")
+		(uuid "5627ba96-0ab1-4c57-bc51-eea3f1cf1ccc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1053 128.27 0)
+			(at 100.9734 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIURNA"
+		(shape input)
+		(at 116.84 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c2bfd60-6756-41f1-89be-3befb70d9cd8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.9604 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENCREUAMENT"
+		(shape input)
+		(at 116.84 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94e0225a-4529-47c7-8fcf-d8c3eafa78fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.3687 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CARRETERA"
+		(shape input)
+		(at 116.84 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c51eff84-71f2-41ca-8fc3-e52985649e00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.332 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,6 +2224,71 @@
 			(project "PROJECTE_LLUMS"
 				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 170.18 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b007c08-7494-4fa9-bd13-dc66e5a99095")
+		(property "Reference" "#FLG04"
+			(at 170.18 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 172.974 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74e2fc63-d5a3-49ca-b78b-717d35627b26")
+		)
+		(instances
+			(project ""
+				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)

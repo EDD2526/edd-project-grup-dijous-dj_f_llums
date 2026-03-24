@@ -1445,7 +1445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 175.26 101.6 0)
 			(effects
 				(font
@@ -1584,7 +1584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 153.162 100.33 90)
 			(effects
 				(font
@@ -1702,7 +1702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3c05b70-6857-482e-a0a9-7316c9d37654")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0103"
 			(at 167.64 111.76 0)
 			(effects
 				(font
@@ -1752,7 +1752,7 @@
 		(instances
 			(project "PROJECTE_LLUMS"
 				(path "/b4874c87-978f-427f-bc45-3635f8629977/cd13a3ea-30b8-4fef-9eee-500876d417cb"
-					(reference "#PWR016")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -1785,7 +1785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 138.1252 88.9 0)
 			(effects
 				(font

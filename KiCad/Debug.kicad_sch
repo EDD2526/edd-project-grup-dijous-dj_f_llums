@@ -518,7 +518,7 @@
 		(dnp no)
 		(uuid "9c5ec93c-1fd6-4832-82e8-f18f1e07d763")
 		(property "Reference" "R16"
-			(at 144.526 94.996 90)
+			(at 144.018 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,14 +526,14 @@
 			)
 		)
 		(property "Value" "100"
-			(at 148.844 94.996 90)
+			(at 149.352 94.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 147.32 99.568 90)
 			(effects
 				(font
@@ -651,7 +651,7 @@
 		(dnp no)
 		(uuid "f0127686-918c-4a98-83b3-68eb2d256782")
 		(property "Reference" "R17"
-			(at 144.78 103.378 90)
+			(at 144.272 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -659,14 +659,14 @@
 			)
 		)
 		(property "Value" "100"
-			(at 148.844 103.378 90)
+			(at 149.352 103.378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 147.32 102.108 90)
 			(effects
 				(font
@@ -735,7 +735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 157.48 100.33 0)
 			(effects
 				(font
