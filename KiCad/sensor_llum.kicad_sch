@@ -1304,7 +1304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BH1750FVI-TR:XDCR_BH1750FVI-TR"
+		(property "Footprint" "footprints:XDCR_BH1750FVI-TR"
 			(at 151.13 95.25 0)
 			(effects
 				(font
