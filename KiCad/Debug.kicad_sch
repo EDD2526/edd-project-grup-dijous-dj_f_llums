@@ -464,6 +464,26 @@
 		)
 		(uuid "fe0a4f45-3fbd-4d81-9dc4-982dbb1332fa")
 	)
+	(label "CON1"
+		(at 151.13 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "801d786d-b604-44fb-9618-2878e992fccb")
+	)
+	(label "CON2"
+		(at 151.13 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5e7fc06-82b7-4369-81c7-0c5b7500705d")
+	)
 	(global_label "UART_RX"
 		(shape input)
 		(at 139.7 100.33 180)

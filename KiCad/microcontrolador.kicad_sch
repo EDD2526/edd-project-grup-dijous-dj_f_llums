@@ -1906,6 +1906,46 @@
 		)
 		(uuid "faad6211-5b90-4eef-b677-41e9b84fcee9")
 	)
+	(label "{slash}MCLR"
+		(at 83.82 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bda4aae-714d-4014-b97d-5e3add7b5f71")
+	)
+	(label "VCAP"
+		(at 200.66 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b41e78f-c058-4531-9f68-9b9db9ff8b47")
+	)
+	(label "OSC1"
+		(at 81.28 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfbec0d5-4e9d-451b-b9cf-0c5b58c9bf31")
+	)
+	(label "OSC2"
+		(at 81.28 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3da7eee-750b-4625-be6b-285f0aaf0053")
+	)
 	(global_label "CANTX"
 		(shape input)
 		(at 95.25 123.19 180)

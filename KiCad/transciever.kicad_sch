@@ -1198,6 +1198,16 @@
 		)
 		(uuid "f867a7a4-5adc-4edc-b843-dcb3baf0ed3b")
 	)
+	(label "VDD"
+		(at 133.35 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f896066c-582e-4a69-ae6b-7ef8e1045b69")
+	)
 	(global_label "CANTX"
 		(shape input)
 		(at 123.19 95.25 180)
@@ -1846,7 +1856,7 @@
 			)
 		)
 		(property "Value" "MCP2551-I-SN"
-			(at 139.192 90.678 0)
+			(at 138.176 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
