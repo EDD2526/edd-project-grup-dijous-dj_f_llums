@@ -1449,6 +1449,18 @@
 		(uuid "3956899f-52b9-41d3-9be2-25b50f9140b0")
 	)
 	(junction
+		(at 175.26 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47f001c6-70a9-46ce-8a42-6b4a481f1c64")
+	)
+	(junction
+		(at 175.26 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7da278eb-bdfd-40cc-99c0-6f2c98186615")
+	)
+	(junction
 		(at 123.19 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1551,16 +1563,6 @@
 			(type default)
 		)
 		(uuid "2c95a044-9001-42a4-8a68-6e16e3b622d9")
-	)
-	(wire
-		(pts
-			(xy 196.85 101.6) (xy 201.93 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f300ec-dbb1-4b63-a3fa-c3f9eb9a6a00")
 	)
 	(wire
 		(pts
@@ -1744,6 +1746,26 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 101.6) (xy 201.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05069f1-5dcc-43e7-9d39-2cd6f750945d")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2877a64-b5ee-4b27-b4d5-38be26294dd4")
+	)
+	(wire
+		(pts
 			(xy 222.25 101.6) (xy 222.25 104.14)
 		)
 		(stroke
@@ -1764,13 +1786,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 101.6) (xy 172.72 101.6)
+			(xy 166.37 101.6) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d0d8651f-3602-408c-8e24-106947363bb4")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d195a0fc-ecfb-4978-b337-29998be5b094")
 	)
 	(wire
 		(pts
@@ -1814,7 +1846,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 148.59 96.52)
+			(xy 148.59 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1888,29 +1920,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 172.72 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "36de60b9-aaff-4659-91ad-75484635f7d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.0033 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 149.86 96.52 0)
+		(at 180.34 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1920,7 +1930,7 @@
 		)
 		(uuid "65c46690-1c8d-425a-950b-f45aa2ffe36a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.1433 96.52 0)
+			(at 185.6233 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,28 +2030,6 @@
 					(bold yes)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 196.85 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f67c7727-c3f5-41d2-8c00-0276f1aad9a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.5667 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2399,10 +2387,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "29a58a9a-4f6b-4824-becd-50add81dcb07")
 		(property "Reference" "L1"
-			(at 160.02 96.52 90)
+			(at 160.02 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2397,7 @@
 			)
 		)
 		(property "Value" "33uH"
-			(at 160.02 99.06 90)
+			(at 160.02 103.124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2478,7 +2465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "220uF"
 			(at 170.18 109.2199 0)
 			(effects
 				(font
@@ -2750,7 +2737,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "680uF"
 			(at 105.918 104.14 0)
 			(effects
 				(font
@@ -3201,7 +3188,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 152.4 107.95 90)
+		(at 152.4 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3209,7 +3196,7 @@
 		(dnp no)
 		(uuid "e7d85fd0-5946-4123-99ac-5bd247efeb9c")
 		(property "Reference" "D8"
-			(at 147.32 106.934 90)
+			(at 157.48 108.966 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3205,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 145.034 109.474 90)
+			(at 159.766 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3214,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 156.845 107.95 0)
+			(at 147.955 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

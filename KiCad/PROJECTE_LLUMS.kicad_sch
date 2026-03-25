@@ -5,18 +5,6 @@
 	(uuid "b4874c87-978f-427f-bc45-3635f8629977")
 	(paper "A4")
 	(lib_symbols)
-	(text "DEBUG\n"
-		(exclude_from_sim no)
-		(at 175.006 94.742 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-		)
-		(uuid "129b40ac-72e7-45b1-9646-42d141d8043a")
-	)
 	(text "ALIMENTACiÓ"
 		(exclude_from_sim no)
 		(at 54.356 44.704 0)
@@ -295,48 +283,6 @@
 			(project "PROJECTE_LLUMS"
 				(path "/b4874c87-978f-427f-bc45-3635f8629977"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 148.59 76.2)
-		(size 55.88 35.56)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c1b8d102-e53b-43a9-9e1c-a454801cd13d")
-		(property "Sheetname" "Debug"
-			(at 148.59 75.4884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Debug.kicad_sch"
-			(at 148.59 112.3446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "PROJECTE_LLUMS"
-				(path "/b4874c87-978f-427f-bc45-3635f8629977"
-					(page "8")
 				)
 			)
 		)
