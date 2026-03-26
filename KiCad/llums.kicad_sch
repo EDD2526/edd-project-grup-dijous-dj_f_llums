@@ -642,6 +642,308 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Relay:Relay_SPST-NO"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Relay_SPST-NO"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Relay SPST, normally open, EN50005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Relay?SPST*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Relay_SPST-NO_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Relay_SPST-NO_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Relay_SPST-NO_1_1"
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:IRLZ44N"
 			(pin_names
 				(hide yes)
@@ -1268,33 +1570,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "els pins RB s'haurà de posar una etiqueta per cada pin del microcontrolador en format sortida\n"
-		(exclude_from_sim no)
-		(at 134.112 145.034 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c55ad446-f2d9-4fc8-abe9-bc5a00e23841")
+	(junction
+		(at 170.18 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "102342f5-c29f-45ba-b2cd-b9b56e4a7f37")
 	)
 	(junction
 		(at 124.46 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fe617e2-647a-4fd8-ad7b-cd7c45bfde77")
-	)
-	(junction
-		(at 163.83 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42eacdbd-4fd3-449b-9cd2-0dc26804b449")
-	)
-	(junction
-		(at 156.21 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "703636a1-b9bc-40d8-b65b-e60a4a8dbb19")
 	)
 	(junction
 		(at 132.08 133.35)
@@ -1326,6 +1612,12 @@
 		(color 0 0 0 0)
 		(uuid "e337b1b9-5173-44c0-84f5-9687009e9933")
 	)
+	(junction
+		(at 170.18 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9b0db09-222d-45dc-ac2d-bf8d1071ee10")
+	)
 	(wire
 		(pts
 			(xy 157.48 96.52) (xy 162.56 96.52)
@@ -1338,16 +1630,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 123.19) (xy 156.21 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00f4a2d2-b372-4dfb-b68c-db2a40cc0650")
-	)
-	(wire
-		(pts
 			(xy 124.46 106.68) (xy 124.46 120.65)
 		)
 		(stroke
@@ -1355,16 +1637,6 @@
 			(type default)
 		)
 		(uuid "03d82efd-1869-439e-8ad9-a1bf38953212")
-	)
-	(wire
-		(pts
-			(xy 156.21 123.19) (xy 163.83 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e6e4ead-608f-490f-a8c3-8496f16de8e9")
 	)
 	(wire
 		(pts
@@ -1388,16 +1660,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 123.19) (xy 156.21 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11c6ae65-0be8-4fdf-b4b3-04facac2dda5")
-	)
-	(wire
-		(pts
 			(xy 124.46 133.35) (xy 132.08 133.35)
 		)
 		(stroke
@@ -1405,6 +1667,16 @@
 			(type default)
 		)
 		(uuid "32b4a5b6-d44a-4bd0-a622-a6422f698eab")
+	)
+	(wire
+		(pts
+			(xy 172.72 123.19) (xy 170.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8a6bf6-ea8f-4318-bb91-3927a499705e")
 	)
 	(wire
 		(pts
@@ -1425,6 +1697,16 @@
 			(type default)
 		)
 		(uuid "5026d3e2-8a38-4dd2-9e6c-d0acc517d646")
+	)
+	(wire
+		(pts
+			(xy 167.64 133.35) (xy 170.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b13c1b-897d-4321-b00e-4971f98f9f67")
 	)
 	(wire
 		(pts
@@ -1498,6 +1780,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 130.81) (xy 170.18 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc64813-ae25-4154-ad06-67ef476717ae")
+	)
+	(wire
+		(pts
+			(xy 139.7 123.19) (xy 170.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e482100-b92f-4b22-b645-bfd824bf069f")
+	)
+	(wire
+		(pts
 			(xy 157.48 110.49) (xy 162.56 110.49)
 		)
 		(stroke
@@ -1515,16 +1817,6 @@
 			(type default)
 		)
 		(uuid "87517c22-b8d4-47be-aa78-f8ce8b7e38f6")
-	)
-	(wire
-		(pts
-			(xy 163.83 123.19) (xy 163.83 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "992ef1c8-79cd-425f-9277-cd78d70a37bf")
 	)
 	(wire
 		(pts
@@ -1608,13 +1900,33 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 123.19) (xy 163.83 123.19)
+			(xy 195.58 135.89) (xy 187.96 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d69fe80d-aff4-4d08-bec8-048f43a1e9f9")
+		(uuid "d2d42ca6-4e75-4e3e-b575-c525fe950fa0")
+	)
+	(wire
+		(pts
+			(xy 170.18 133.35) (xy 172.72 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52db106-7c36-4827-a65a-2ffec07f49d2")
+	)
+	(wire
+		(pts
+			(xy 195.58 113.03) (xy 195.58 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca1cb56-bfb8-4efe-b83c-4e60474eab22")
 	)
 	(wire
 		(pts
@@ -1790,7 +2102,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N5408")
-		(at 160.02 132.08 180)
+		(at 170.18 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1798,7 +2110,7 @@
 		(dnp no)
 		(uuid "22ebd178-f77b-4115-a432-ce613dd12cde")
 		(property "Reference" "D7"
-			(at 160.02 135.128 0)
+			(at 173.228 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +2118,7 @@
 			)
 		)
 		(property "Value" "1N5408"
-			(at 160.02 129.032 0)
+			(at 167.132 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +2126,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 160.02 127.635 0)
+			(at 165.735 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +2135,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 160.02 132.08 0)
+			(at 170.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +2144,7 @@
 			)
 		)
 		(property "Description" "1000V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 160.02 132.08 0)
+			(at 170.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +2153,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 160.02 132.08 0)
+			(at 170.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +2162,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 160.02 132.08 0)
+			(at 170.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,6 +2339,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at 180.34 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35154bbf-c5e7-4ac8-b284-bb4015e288b3")
+		(property "Reference" "K1"
+			(at 180.34 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Relay_SPST-NO"
+			(at 180.34 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "b94ea85c-1051-42a3-a6da-aba2101f7c15")
+		)
+		(pin "14"
+			(uuid "8e33ec9d-836b-4f48-846e-7ddfcb12918c")
+		)
+		(pin "A1"
+			(uuid "e0d670c4-d9c9-47cb-8634-c2ac6034004e")
+		)
+		(pin "A2"
+			(uuid "d89db844-fea5-411e-a943-1a0def9f5a66")
+		)
+		(instances
+			(project ""
+				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 170.18 68.58 270)
 		(unit 1)
@@ -2088,6 +2475,72 @@
 			(project "PROJECTE_LLUMS"
 				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 187.96 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "451d0209-fafe-47b7-9aa4-f3fd5a75974f")
+		(property "Reference" "#PWR014"
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 187.198 125.476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 187.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e50963e3-ff15-41de-92da-eab988b2bb60")
+		)
+		(instances
+			(project ""
+				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2289,6 +2742,73 @@
 			(project ""
 				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 167.64 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d8b6a94-d6fd-4570-b346-8ae3cfb46a71")
+		(property "Reference" "#PWR030"
+			(at 171.45 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 163.83 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9055628-ebf1-4ae0-8cc2-d4a46b784dc0")
+		)
+		(instances
+			(project "PROJECTE_LLUMS"
+				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2584,7 +3104,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 179.07 125.73 180)
+		(at 200.66 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2593,7 +3113,7 @@
 		(fields_autoplaced yes)
 		(uuid "91598af0-a240-4223-b643-bf043c1a37a0")
 		(property "Reference" "J1"
-			(at 180.34 123.1899 0)
+			(at 201.93 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +3122,7 @@
 			)
 		)
 		(property "Value" "CONNECTOR_MOTOR"
-			(at 180.34 125.7299 0)
+			(at 201.93 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +3131,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
-			(at 179.07 125.73 0)
+			(at 200.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +3140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 125.73 0)
+			(at 200.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +3149,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 179.07 125.73 0)
+			(at 200.66 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,6 +3386,73 @@
 			(project "PROJECTE_LLUMS"
 				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aed3a0c1-78fb-4761-994f-5a00fcb1bf46")
+		(property "Reference" "#PWR034"
+			(at 189.23 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 195.58 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de9c5eb9-8315-41e4-add5-466638889219")
+		)
+		(instances
+			(project ""
+				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3153,73 +3740,6 @@
 			(project "PROJECTE_LLUMS"
 				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 173.99 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4a36a24-047e-4b30-a082-8c7be18c17e3")
-		(property "Reference" "#PWR014"
-			(at 177.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 170.18 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 173.99 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b61ea20-05fb-43fe-bd5f-f395c517a905")
-		)
-		(instances
-			(project "PROJECTE_LLUMS"
-				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
