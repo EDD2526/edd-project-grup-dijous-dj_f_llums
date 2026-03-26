@@ -1033,6 +1033,26 @@
 		)
 		(uuid "f579337e-0a53-40e9-8b1a-3481f91c392d")
 	)
+	(label "SCL"
+		(at 132.08 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dbaa3d2-4dab-4ef5-8f7c-0a95ac5aa0a1")
+	)
+	(label "SDA"
+		(at 125.73 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa491054-c5cb-4f57-b498-617d878a0d83")
+	)
 	(global_label "I2C_SCL"
 		(shape input)
 		(at 132.08 76.2 0)
