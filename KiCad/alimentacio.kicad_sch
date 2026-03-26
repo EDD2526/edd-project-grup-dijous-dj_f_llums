@@ -1856,16 +1856,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 114.3) (xy 213.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0177ab-36cd-47de-961a-701fa295b77e")
-	)
-	(wire
-		(pts
 			(xy 152.4 101.6) (xy 156.21 101.6)
 		)
 		(stroke
@@ -1931,28 +1921,6 @@
 		(uuid "65c46690-1c8d-425a-950b-f45aa2ffe36a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.6233 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSS"
-		(shape input)
-		(at 213.36 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0839125-8b0c-45f8-b106-d14686091339")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.8528 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,6 +2751,72 @@
 			(project "PROJECTE_LLUMS"
 				(path "/b4874c87-978f-427f-bc45-3635f8629977/b442c7ef-ea3d-476f-b4ca-53d1479b8362"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bf67abb-44f8-46c2-b950-3c31e78e5a3d")
+		(property "Reference" "#PWR030"
+			(at 212.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23cc2a61-2672-4f3b-901a-446736dbb98c")
+		)
+		(instances
+			(project ""
+				(path "/b4874c87-978f-427f-bc45-3635f8629977/b442c7ef-ea3d-476f-b4ca-53d1479b8362"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

@@ -930,16 +930,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 154.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06b590eb-de42-4571-afad-ee14af17c509")
-	)
-	(wire
-		(pts
 			(xy 123.19 95.25) (xy 124.46 95.25)
 		)
 		(stroke
@@ -1050,16 +1040,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 114.3) (xy 154.94 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "834f9199-4183-4025-be6d-d7a7e8b31248")
-	)
-	(wire
-		(pts
 			(xy 162.56 99.06) (xy 162.56 96.52)
 		)
 		(stroke
@@ -1087,16 +1067,6 @@
 			(type default)
 		)
 		(uuid "8e7277b1-1744-4dd7-bcd2-a6d03518b97e")
-	)
-	(wire
-		(pts
-			(xy 158.75 114.3) (xy 154.94 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6f2829-b1b8-45e7-9f84-0247c0503e6a")
 	)
 	(wire
 		(pts
@@ -1180,16 +1150,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 92.71) (xy 154.94 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f842a909-e3cb-44d1-b5e6-70b68ff37842")
-	)
-	(wire
-		(pts
 			(xy 154.94 96.52) (xy 162.56 96.52)
 		)
 		(stroke
@@ -1226,50 +1186,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUS_CANL"
-		(shape input)
-		(at 158.75 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85680e7d-1f81-4f83-b8a3-c7cd6ff9a63b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.23 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BUS_CANH"
-		(shape input)
-		(at 158.75 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a19a953f-7cd8-4858-a83c-8e20ed8e375a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.5324 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
