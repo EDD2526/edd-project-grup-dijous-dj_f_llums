@@ -3,7 +3,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/30200).
 # Projecte LLUMS
 
 >**Autors:** 
->**Versió: **
+>Martina Camprubí i Clara Rosaura
 
 ----------
 
