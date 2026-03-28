@@ -18,22 +18,22 @@ View this project on [CADLAB.io](https://cadlab.io/project/30200).
 
 ### Descripció/funcionalitat de cada bloc
 
-  * ZONA D'ALIMENTACIÓ:  
-	V-BAT 12V: Entrada de tensió provinent de la bateria del vehicle.  
-	DC-DC LM2596: Converteix els 12V a 5V.  
-	LDO LM1117: Redueix els 5V a 3.3V per alimentar la lògica digital.  
-  * CONTROL PRINCIPAL:  
-	MICROCONTROLADOR: Processa entrades i controla sortides del Sistema.  
-	BOTONERA: Permet a l'usuari seleccionar les diferents funcions de llum i motor.  
-	USART / DEBUG: Interfície per comunicació i depuració del Sistema.  
-  * ZONA DIGITAL:  
-	SENSOR DE LLUM (BH1750): Mesura la llum ambiental via I2C per automatizar funcions.   
-	TRANSCEIVER CAN (MCP2551): Adapta els senyals del micro al bus CAN del vehicle.  
-	BUS CAN: Xarxa de comuniació amb altres sistemes del vehicle.  
-  * ZONA DE POTÈNCIA:  
-	DRIVERS MOSFET (IRLZ44N): Actuen com interruptors per controlar càrregues de 12V.  
-	SISTEMA DE LLUMS: Conjunt de llums del vehicle controlades electrònicament.  
-	MOTOR NETEJA-FARS: Actuador de 12V per al sistema de neteja de fars.  
+  * ZONA D'ALIMENTACIÓ:<br>
+	V-BAT 12V: Entrada de tensió provinent de la bateria del vehicle.<br>
+	DC-DC LM2596: Converteix els 12V a 5V.<br>
+	LDO LM1117: Redueix els 5V a 3.3V per alimentar la lògica digital.<br>
+  * CONTROL PRINCIPAL:<br>
+	MICROCONTROLADOR: Processa entrades i controla sortides del Sistema.<br>
+	BOTONERA: Permet a l'usuari seleccionar les diferents funcions de llum i motor.<br>
+	USART / DEBUG: Interfície per comunicació i depuració del Sistema.<br>
+  * ZONA DIGITAL:<br>
+	SENSOR DE LLUM (BH1750): Mesura la llum ambiental via I2C per automatizar funcions.<br>
+	TRANSCEIVER CAN (MCP2551): Adapta els senyals del micro al bus CAN del vehicle.<br>
+	BUS CAN: Xarxa de comuniació amb altres sistemes del vehicle.<br>
+  * ZONA DE POTÈNCIA:<br>
+	DRIVERS MOSFET (IRLZ44N): Actuen com interruptors per controlar càrregues de 12V.<br>
+	SISTEMA DE LLUMS: Conjunt de llums del vehicle controlades electrònicament.<br>
+	MOTOR NETEJA-FARS: Actuador de 12V per al sistema de neteja de fars.<br>
 
 -----------
 
