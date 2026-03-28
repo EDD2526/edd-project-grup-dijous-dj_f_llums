@@ -9,15 +9,31 @@ View this project on [CADLAB.io](https://cadlab.io/project/30200).
 
 ## Objectiu
 
->PCB per ...
+>PCB per control·lar les llums d'un vehicle a través d'un microcontrolador i comunicació CAN. 
 
 
 ## Diagrama de blocs
 
+>![Diagrama de blocs](DiagramaDeBlocs.jpg)
 
 ### Descripció/funcionalitat de cada bloc
 
-  *
+  * ZONA D'ALIMENTACIÓ:
+	V-BAT 12V: Entrada de tensió provinent de la bateria del vehicle.
+	DC-DC LM2596: Converteix els 12V a 5V.
+	LDO LM1117: Redueix els 5V a 3.3V per alimentar la lògica digital.
+  * CONTROL PRINCIPAL:
+	MICROCONTROLADOR: Processa entrades i controla sortides del Sistema.
+	BOTONERA: Permet a l'usuari seleccionar les diferents funcions de llum i motor.
+	USART / DEBUG: Interfície per comunicació i depuració del Sistema. 
+  * ZONA DIGITAL:
+	SENSOR DE LLUM (BH1750): Mesura la llum ambiental via I2C per automatizar funcions. 
+	TRANSCEIVER CAN (MCP2551): Adapta els senyals del micro al bus CAN del vehicle. 
+	BUS CAN: Xarxa de comuniació amb altres sistemes del vehicle.
+  * ZONA DE POTÈNCIA: 
+	DRIVERS MOSFET (IRLZ44N): Actuen com interruptors per controlar càrregues de 12V.
+	SISTEMA DE LLUMS: Conjunt de llums del vehicle controlades electrònicament. 
+	MOTOR NETEJA-FARS: Actuador de 12V per al sistema de neteja de fars. 
 
 -----------
 
