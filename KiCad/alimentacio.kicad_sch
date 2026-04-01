@@ -1480,16 +1480,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 109.22) (xy 212.09 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06ca15b1-2840-4829-baa1-b8f8b5a55474")
-	)
-	(wire
-		(pts
 			(xy 166.37 101.6) (xy 163.83 101.6)
 		)
 		(stroke
@@ -1690,6 +1680,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 109.22) (xy 212.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01a06b4-16a4-47c4-b72e-862cc5fc0485")
+	)
+	(wire
+		(pts
 			(xy 152.4 113.03) (xy 152.4 111.76)
 		)
 		(stroke
@@ -1820,16 +1820,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 114.3) (xy 213.36 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0177ab-36cd-47de-961a-701fa295b77e")
-	)
-	(wire
-		(pts
 			(xy 152.4 101.6) (xy 156.21 101.6)
 		)
 		(stroke
@@ -1857,28 +1847,6 @@
 			(justify left bottom)
 		)
 		(uuid "c90d35a0-d379-428d-b06d-b76448268f24")
-	)
-	(global_label "VSS"
-		(shape input)
-		(at 213.36 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0839125-8b0c-45f8-b106-d14686091339")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.8528 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
@@ -2827,6 +2795,72 @@
 			(project ""
 				(path "/b4874c87-978f-427f-bc45-3635f8629977/b442c7ef-ea3d-476f-b4ca-53d1479b8362"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0bd53f9-9673-4551-8a99-5af623f7e89b")
+		(property "Reference" "#PWR052"
+			(at 212.09 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e1315f7-4c88-486c-b64d-abedb4d59546")
+		)
+		(instances
+			(project "PROJECTE_LLUMS"
+				(path "/b4874c87-978f-427f-bc45-3635f8629977/b442c7ef-ea3d-476f-b4ca-53d1479b8362"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
