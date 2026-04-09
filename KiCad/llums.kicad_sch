@@ -2578,7 +2578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6S-2F"
 			(at 179.07 139.7 0)
 			(effects
 				(font
