@@ -2341,7 +2341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6S-2F"
+		(property "Footprint" "Relay_THT:Relay_1-Form-C_Schrack-RYII_RM3.2mm"
 			(at 179.07 139.7 0)
 			(effects
 				(font
