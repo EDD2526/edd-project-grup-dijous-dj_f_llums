@@ -642,7 +642,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Relay_SPST-NO"
+		(symbol "Relay:Fujitsu_FTR-LYAA005x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -655,7 +655,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Relay_SPST-NO"
+			(property "Value" "Fujitsu_FTR-LYAA005x"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -664,7 +664,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Relay_THT:Relay_SPST-NO_Fujitsu_FTR-LYAA005x_FormA_Vertical"
 				(at 11.43 -1.27 0)
 				(effects
 					(font
@@ -674,7 +674,17 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+				(at 17.78 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -683,7 +693,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Relay SPST, normally open, EN50005"
+			(property "ki_keywords" "6A SPST-NO Relay"
 				(at 0 0 0)
 				(effects
 					(font
@@ -692,7 +702,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
+			(property "ki_fp_filters" "Relay*Fujitsu*FTR?LYA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -701,16 +711,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay?SPST*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Relay_SPST-NO_0_0"
+			(symbol "Fujitsu_FTR-LYAA005x_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -724,7 +725,7 @@
 					)
 				)
 			)
-			(symbol "Relay_SPST-NO_0_1"
+			(symbol "Fujitsu_FTR-LYAA005x_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -868,7 +869,7 @@
 					)
 				)
 			)
-			(symbol "Relay_SPST-NO_1_1"
+			(symbol "Fujitsu_FTR-LYAA005x_1_1"
 				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
@@ -2315,6 +2316,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYAA005x")
+		(at 180.34 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f16f5c4-5260-48d2-89d0-c30d54aa9d2a")
+		(property "Reference" "K1"
+			(at 180.34 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fujitsu_FTR-LYAA005x"
+			(at 180.34 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6S-2F"
+			(at 179.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 176.53 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay, SPST Form A, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "970fe57f-aa1e-428f-853b-acde70c3a319")
+		)
+		(pin "14"
+			(uuid "a39b52ee-c081-4bfb-999f-9f8068b7dbb9")
+		)
+		(pin "A2"
+			(uuid "f80a40c2-698b-4a45-80e5-82b82bae93f3")
+		)
+		(pin "A1"
+			(uuid "6b27a0c6-1009-44a8-8350-0156cc40fcda")
+		)
+		(instances
+			(project ""
+				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5408")
 		(at 170.18 127 270)
 		(unit 1)
@@ -2547,81 +2624,6 @@
 			(project "PROJECTE_LLUMS"
 				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPST-NO")
-		(at 180.34 128.27 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35154bbf-c5e7-4ac8-b284-bb4015e288b3")
-		(property "Reference" "K1"
-			(at 180.34 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Relay_SPST-NO"
-			(at 180.34 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6S-2F"
-			(at 179.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 180.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "b94ea85c-1051-42a3-a6da-aba2101f7c15")
-		)
-		(pin "14"
-			(uuid "8e33ec9d-836b-4f48-846e-7ddfcb12918c")
-		)
-		(pin "A1"
-			(uuid "e0d670c4-d9c9-47cb-8634-c2ac6034004e")
-		)
-		(pin "A2"
-			(uuid "d89db844-fea5-411e-a943-1a0def9f5a66")
-		)
-		(instances
-			(project ""
-				(path "/b4874c87-978f-427f-bc45-3635f8629977/0edcf3aa-0722-4786-beaa-59b728b7a9fc"
-					(reference "K1")
 					(unit 1)
 				)
 			)
