@@ -532,6 +532,26 @@
       {
         "netclass": "alimentació",
         "pattern": "5V"
+      },
+      {
+        "netclass": "alimentació",
+        "pattern": "A_LED3"
+      },
+      {
+        "netclass": "alimentació",
+        "pattern": "A_LED2"
+      },
+      {
+        "netclass": "alimentació",
+        "pattern": "A_LED4"
+      },
+      {
+        "netclass": "alimentació",
+        "pattern": "A_LED1"
+      },
+      {
+        "netclass": "alimentació",
+        "pattern": "A_LED5"
       }
     ]
   },
