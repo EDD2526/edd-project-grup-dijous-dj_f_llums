@@ -3111,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 76.2) (xy 90.17 76.2)
+			(xy 77.47 73.66) (xy 90.17 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3271,7 +3271,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 80.01) (xy 77.47 76.2)
+			(xy 77.47 80.01) (xy 77.47 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3641,7 +3641,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 73.66) (xy 90.17 73.66)
+			(xy 64.77 76.2) (xy 90.17 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +3781,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 73.66) (xy 64.77 80.01)
+			(xy 64.77 76.2) (xy 64.77 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4093,8 +4093,8 @@
 		)
 		(uuid "b3134fe1-3ac3-4175-8f1d-f3f86adf53d3")
 	)
-	(label "OSC1"
-		(at 83.82 73.66 0)
+	(label "OSC2"
+		(at 83.82 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4103,8 +4103,8 @@
 		)
 		(uuid "bfbec0d5-4e9d-451b-b9cf-0c5b58c9bf31")
 	)
-	(label "OSC2"
-		(at 83.82 76.2 0)
+	(label "OSC1"
+		(at 83.82 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
