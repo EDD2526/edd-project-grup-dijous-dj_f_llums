@@ -3288,7 +3288,7 @@
 		(at 162.8 43.1 -90)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
-		(property "Reference" "SW6"
+		(property "Reference" "INT. ESQ"
 			(at -3.3 2.3 0)
 			(layer "F.SilkS")
 			(uuid "81f829c8-58ad-491b-bbc2-63c31b885e3e")
@@ -4408,7 +4408,7 @@
 		(at 184 43 -90)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
-		(property "Reference" "SW2"
+		(property "Reference" "ENCREUAMENT"
 			(at -3.3 2.35 0)
 			(layer "F.SilkS")
 			(uuid "3f3eb6cc-62b1-4864-a6c5-907ff95da8ba")
@@ -10117,7 +10117,7 @@
 		(at 194.45 42.95 -90)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
-		(property "Reference" "SW1"
+		(property "Reference" "CARRETERA"
 			(at -3.3 2.3 0)
 			(layer "F.SilkS")
 			(uuid "886dcb4f-1ab5-4fb5-b06a-321ebe171e8e")
@@ -13551,7 +13551,7 @@
 		(at 152.1 43.2 -90)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
-		(property "Reference" "SW4"
+		(property "Reference" "FARS"
 			(at -3.3 2.3 0)
 			(layer "F.SilkS")
 			(uuid "7f7f5a42-979d-45e7-a481-6f038fe36625")
@@ -13898,7 +13898,7 @@
 		(at 173.5 43.1 -90)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
-		(property "Reference" "SW3"
+		(property "Reference" "DIURNA"
 			(at -3.3 2.4 0)
 			(layer "F.SilkS")
 			(uuid "9ea3895d-fbaf-4f48-ba3e-bebbf271215d")
@@ -14999,7 +14999,7 @@
 		(at 141.25 43.25 -90)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
-		(property "Reference" "SW5"
+		(property "Reference" "INT. DRT"
 			(at -3.3 2.5 0)
 			(layer "F.SilkS")
 			(uuid "0e0a34fa-08b0-49ec-9ff3-90ab565dc5d6")
@@ -18492,6 +18492,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "12V"
+		(at 192.5 70.4 0)
+		(layer "F.SilkS")
+		(uuid "0cd3d47b-834b-4685-a848-e12087f020c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "MCLR"
 		(at 97 109.1 90)
 		(layer "F.SilkS")
@@ -18506,9 +18519,35 @@
 		)
 	)
 	(gr_text "12V"
+		(at 192.4 83.6 0)
+		(layer "F.SilkS")
+		(uuid "642e0a46-132c-4d26-85f6-2d19df4d1504")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
 		(at 99.5 44.25 0)
 		(layer "F.SilkS")
 		(uuid "698e2416-b5d9-4568-b27d-a94be154bc61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
+		(at 191.8925 109.9 0)
+		(layer "F.SilkS")
+		(uuid "7843e762-47fb-4c8d-8d78-38defd86b811")
 		(effects
 			(font
 				(size 1 1)
@@ -18535,6 +18574,19 @@
 		(at 104.6 108.7 90)
 		(layer "F.SilkS")
 		(uuid "899fccf8-541e-45a6-95a4-8b036fd8d83c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
+		(at 192.4 96.9 0)
+		(layer "F.SilkS")
+		(uuid "a374c272-7948-49db-a147-c8af923fe675")
 		(effects
 			(font
 				(size 1 1)
@@ -18574,6 +18626,19 @@
 		(at 104.6 44.15 0)
 		(layer "F.SilkS")
 		(uuid "db7d9d8a-7fba-4683-b9a6-a2769aff020c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12V"
+		(at 192.5 57.5 0)
+		(layer "F.SilkS")
+		(uuid "dd0582c7-6e18-4818-b397-cda1b745e5e5")
 		(effects
 			(font
 				(size 1 1)
